@@ -1,0 +1,18 @@
+img{
+    width: 500px;
+}
+body{
+    background-color: lightblue;
+}
+
+@media (max-width:800px){
+    img{
+        width: 300px;
+    }
+    body{
+        background-color: lightgreen;
+    }
+    h1{
+        display: none;
+    }
+}
